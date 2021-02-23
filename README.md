@@ -1,45 +1,45 @@
-# PROJECT NAME
+# Tuition Reimbursement Management Systerm - Java
 
 ## Project Description
 
-Here goes your awesome project description!
+The Tuition Reimbursement System, TRMS, allows users to submit reimbursements for courses and training. The submitted reimbursement must be approved by that employee's supervisor, department head, and benefits coordinator. The benefits coordinator then reviews the grade received before finalizing the reimbursement.
 
 ## Technologies Used
 
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Java - version 8
+* Oracle Database - version 19c
+* AWS RDS
+* HTML/CSS/JS - Bootstrap version 4
+* Apache Tomcat - version 9
 
 ## Features
 
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* User log in
+* User can fill out form for reimbursement of funds
+* Approving users can view requests for reimbursement and approve
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Render info on the front end using Bootstrap tables
+* Input validation
 
 ## Getting Started
    
-(include git clone command)
-(include all environment setup steps)
-
-> Be sure to include BOTH Windows and Unix command  
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
-
-- All the `code` required to get started
-- Images of what it should look like
+1. Clone from Github (git clone https://github.com/jeff5489/project1.git)
+2. Request DB snapshot from james.patten@revature.net
+3. Set JDBC credentials in connections file
+4. Run as application and access index.html
 
 ## Usage
 
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+1. Login (associate - username: "user", password: "pass" approver - username: "admin", password: "pass")
+   * Associate Employee - username: "joker", password: "pass"
+   * Benefits Coordinator/Approver - username: "benco", password: "pass"
+   * Supervisor/Approver - username: "super", password: "pass"
+   * Department Head/Approver - username: "batman", password: "pass"
+3. Click create request button to create new reimbursement request
+4. Log in as approver to view requests and approve
 
 ## Contributors
 
-> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
-
-## License
-
-This project uses the following license: [<license_name>](<link>).
+> NA
